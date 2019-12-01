@@ -112,176 +112,144 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="iHv-m6-AH8">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="5VN-sP-0Sn">
-                                <rect key="frame" x="25" y="144" width="364" height="70"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84p-22-cCv">
-                                        <rect key="frame" x="0.0" y="0.0" width="152" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qp2-Lt-Ogc">
-                                        <rect key="frame" x="167" y="0.0" width="36.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0df-YL-FmE">
-                                        <rect key="frame" x="218.5" y="0.0" width="5.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwn-jZ-sgH">
-                                        <rect key="frame" x="239" y="0.0" width="0.0" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RPG-7e-c2i">
-                                        <rect key="frame" x="254" y="0.0" width="110" height="70"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="70" id="wPx-Sc-M06"/>
-                                            <constraint firstAttribute="width" constant="110" id="zBs-7Q-pGP"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="20V-66-3WE">
-                                <rect key="frame" x="25" y="232" width="364" height="70"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7u-od-ZaR">
-                                        <rect key="frame" x="0.0" y="0.0" width="152" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIc-Mb-7OM">
-                                        <rect key="frame" x="167" y="0.0" width="36.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKw-OR-TsO">
-                                        <rect key="frame" x="218.5" y="0.0" width="5.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COv-oA-yai">
-                                        <rect key="frame" x="239" y="0.0" width="0.0" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2C1-E2-G2M">
-                                        <rect key="frame" x="254" y="0.0" width="110" height="70"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="110" id="9BN-CQ-arA"/>
-                                            <constraint firstAttribute="height" constant="70" id="yYW-IJ-nzF"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yrI-8w-ikR">
-                                <rect key="frame" x="25" y="408" width="364" height="70"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F18-nj-dHQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="152" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-O8-DA6">
-                                        <rect key="frame" x="167" y="0.0" width="36.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ga-1k-5bm">
-                                        <rect key="frame" x="218.5" y="0.0" width="5.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="el6-OG-boF">
-                                        <rect key="frame" x="239" y="0.0" width="0.0" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BsN-We-GJf">
-                                        <rect key="frame" x="254" y="0.0" width="110" height="70"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="110" id="GWU-hb-smA"/>
-                                            <constraint firstAttribute="height" constant="70" id="yGl-cl-sC0"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                </subviews>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQc-7B-4TS">
-                                <rect key="frame" x="207" y="648" width="0.0" height="0.0"/>
-                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84p-22-cCv">
+                                <rect key="frame" x="25" y="144" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Mj2-x4-euW">
-                                <rect key="frame" x="25" y="320" width="364" height="70"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsJ-Nd-P73">
-                                        <rect key="frame" x="0.0" y="0.0" width="146" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqh-fE-qfk">
-                                        <rect key="frame" x="161" y="0.0" width="37.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh2-1v-eeD">
-                                        <rect key="frame" x="213.5" y="0.0" width="10.5" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebH-wI-D8a">
-                                        <rect key="frame" x="239" y="0.0" width="0.0" height="70"/>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Grp-VI-F4O">
-                                        <rect key="frame" x="254" y="0.0" width="110" height="70"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="110" id="CMv-ux-wxy"/>
-                                            <constraint firstAttribute="height" constant="70" id="E2q-he-nH0"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                    </textField>
-                                </subviews>
-                            </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skor: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ff-rh-rGv">
-                                <rect key="frame" x="258.5" y="44" width="135.5" height="35.5"/>
-                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0df-YL-FmE">
+                                <rect key="frame" x="121" y="144" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hwn-jZ-sgH">
+                                <rect key="frame" x="151" y="100" width="27.5" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qp2-Lt-Ogc">
+                                <rect key="frame" x="55" y="100" width="36" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RPG-7e-c2i">
+                                <rect key="frame" x="279" y="109" width="110" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="wPx-Sc-M06"/>
+                                    <constraint firstAttribute="width" constant="110" id="zBs-7Q-pGP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7u-od-ZaR">
+                                <rect key="frame" x="25" y="232" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AIc-Mb-7OM">
+                                <rect key="frame" x="55" y="188" width="36" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKw-OR-TsO">
+                                <rect key="frame" x="121" y="232" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="COv-oA-yai">
+                                <rect key="frame" x="151" y="188" width="27.5" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2C1-E2-G2M">
+                                <rect key="frame" x="279" y="197" width="110" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="9BN-CQ-arA"/>
+                                    <constraint firstAttribute="height" constant="70" id="yYW-IJ-nzF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UsJ-Nd-P73">
+                                <rect key="frame" x="25" y="320" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqh-fE-qfk">
+                                <rect key="frame" x="55" y="276" width="36" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh2-1v-eeD">
+                                <rect key="frame" x="121" y="320" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebH-wI-D8a">
+                                <rect key="frame" x="151" y="276" width="27.5" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Grp-VI-F4O">
+                                <rect key="frame" x="279" y="285" width="110" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="CMv-ux-wxy"/>
+                                    <constraint firstAttribute="height" constant="70" id="E2q-he-nH0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F18-nj-dHQ">
+                                <rect key="frame" x="25" y="408" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2R-O8-DA6">
+                                <rect key="frame" x="55" y="364" width="36" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ga-1k-5bm">
+                                <rect key="frame" x="121" y="408" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="el6-OG-boF">
+                                <rect key="frame" x="151" y="364" width="27.5" height="88"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BsN-We-GJf">
+                                <rect key="frame" x="279" y="373" width="110" height="70"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="GWU-hb-smA"/>
+                                    <constraint firstAttribute="height" constant="70" id="yGl-cl-sC0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nn1-Hj-Ezr">
-                                <rect key="frame" x="137" y="528" width="140" height="70"/>
+                                <rect key="frame" x="137" y="502" width="140" height="70"/>
                                 <color key="backgroundColor" red="0.20000000000000001" green="0.81960784310000001" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="1Qb-R5-d1U"/>
@@ -300,33 +268,72 @@
                                     <action selector="checkAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ct8-p8-RuG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skor: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Ff-rh-rGv">
+                                <rect key="frame" x="258.5" y="44" width="135.5" height="35.5"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQc-7B-4TS">
+                                <rect key="frame" x="207" y="622" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Papyrus-Condensed" family="Papyrus" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="5VN-sP-0Sn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="0Td-Ru-fLe"/>
+                            <constraint firstItem="Grp-VI-F4O" firstAttribute="trailing" secondItem="2C1-E2-G2M" secondAttribute="trailing" id="0Bg-W1-pmN"/>
                             <constraint firstItem="iHv-m6-AH8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="12z-3s-9CB"/>
+                            <constraint firstItem="D7u-od-ZaR" firstAttribute="leading" secondItem="84p-22-cCv" secondAttribute="leading" id="1jG-0P-ya3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2C1-E2-G2M" secondAttribute="trailing" constant="25" id="4rO-Gq-26e"/>
+                            <constraint firstItem="el6-OG-boF" firstAttribute="centerX" secondItem="ebH-wI-D8a" secondAttribute="centerX" id="54v-2W-Ahs"/>
                             <constraint firstItem="iHv-m6-AH8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6AH-ik-IdN"/>
-                            <constraint firstItem="5VN-sP-0Sn" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="6Vm-qr-ZVi"/>
-                            <constraint firstItem="20V-66-3WE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="D30-I5-LzI"/>
+                            <constraint firstItem="0df-YL-FmE" firstAttribute="centerY" secondItem="84p-22-cCv" secondAttribute="centerY" id="7zJ-nC-ZKJ"/>
+                            <constraint firstItem="Qp2-Lt-Ogc" firstAttribute="centerY" secondItem="84p-22-cCv" secondAttribute="centerY" id="DOj-Bw-zUq"/>
                             <constraint firstItem="xQc-7B-4TS" firstAttribute="top" secondItem="Nn1-Hj-Ezr" secondAttribute="bottom" constant="50" id="FCi-Y5-IlI"/>
-                            <constraint firstItem="Nn1-Hj-Ezr" firstAttribute="top" secondItem="yrI-8w-ikR" secondAttribute="bottom" constant="50" id="I8N-Dd-nZX"/>
+                            <constraint firstItem="UsJ-Nd-P73" firstAttribute="centerY" secondItem="Grp-VI-F4O" secondAttribute="centerY" id="GcI-Ty-JpB"/>
+                            <constraint firstItem="AIc-Mb-7OM" firstAttribute="centerX" secondItem="Qp2-Lt-Ogc" secondAttribute="centerX" id="IKt-mr-LBn"/>
+                            <constraint firstItem="Qp2-Lt-Ogc" firstAttribute="leading" secondItem="84p-22-cCv" secondAttribute="trailing" constant="30" id="IYM-ap-JiR"/>
                             <constraint firstItem="xQc-7B-4TS" firstAttribute="centerX" secondItem="Nn1-Hj-Ezr" secondAttribute="centerX" id="Ky5-Fv-b0x"/>
                             <constraint firstItem="2Ff-rh-rGv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LIX-iV-gSC"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5VN-sP-0Sn" secondAttribute="trailing" constant="25" id="LUQ-Un-8Pm"/>
+                            <constraint firstItem="uqh-fE-qfk" firstAttribute="centerY" secondItem="Grp-VI-F4O" secondAttribute="centerY" id="LRi-hH-SYs"/>
+                            <constraint firstItem="8ga-1k-5bm" firstAttribute="centerX" secondItem="lh2-1v-eeD" secondAttribute="centerX" id="LTL-ZH-adX"/>
+                            <constraint firstItem="yKw-OR-TsO" firstAttribute="centerY" secondItem="D7u-od-ZaR" secondAttribute="centerY" id="Lkl-eJ-HgZ"/>
                             <constraint firstItem="Nn1-Hj-Ezr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="MdR-lJ-ULc"/>
-                            <constraint firstItem="5VN-sP-0Sn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="PJ6-CU-qFz"/>
-                            <constraint firstAttribute="trailing" secondItem="20V-66-3WE" secondAttribute="trailing" constant="25" id="YQM-8c-M4p"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mj2-x4-euW" secondAttribute="trailing" constant="25" id="cfa-Ku-ZcZ"/>
-                            <constraint firstItem="yrI-8w-ikR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="ehS-xn-h5d"/>
-                            <constraint firstItem="Mj2-x4-euW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="gP5-GV-Rxf"/>
+                            <constraint firstItem="Grp-VI-F4O" firstAttribute="top" secondItem="2C1-E2-G2M" secondAttribute="bottom" constant="18" id="OGd-ae-mIn"/>
+                            <constraint firstItem="Hwn-jZ-sgH" firstAttribute="leading" secondItem="0df-YL-FmE" secondAttribute="trailing" constant="30" id="Q0h-Te-ZGm"/>
+                            <constraint firstItem="Hwn-jZ-sgH" firstAttribute="centerY" secondItem="84p-22-cCv" secondAttribute="centerY" id="QPH-rp-PAm"/>
+                            <constraint firstItem="8ga-1k-5bm" firstAttribute="centerY" secondItem="BsN-We-GJf" secondAttribute="centerY" id="Sdj-yP-Acu"/>
+                            <constraint firstItem="RPG-7e-c2i" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hwn-jZ-sgH" secondAttribute="trailing" constant="25" id="SnG-36-PP8"/>
+                            <constraint firstItem="0df-YL-FmE" firstAttribute="leading" secondItem="Qp2-Lt-Ogc" secondAttribute="trailing" constant="30" id="TUq-tz-imd"/>
+                            <constraint firstItem="AIc-Mb-7OM" firstAttribute="centerY" secondItem="2C1-E2-G2M" secondAttribute="centerY" id="Vaj-FN-UrT"/>
+                            <constraint firstItem="UsJ-Nd-P73" firstAttribute="leading" secondItem="D7u-od-ZaR" secondAttribute="leading" id="XBq-N5-eap"/>
+                            <constraint firstItem="RPG-7e-c2i" firstAttribute="centerY" secondItem="84p-22-cCv" secondAttribute="centerY" id="YAx-xk-COH"/>
+                            <constraint firstItem="COv-oA-yai" firstAttribute="centerY" secondItem="2C1-E2-G2M" secondAttribute="centerY" id="Z48-3O-Prj"/>
+                            <constraint firstItem="ebH-wI-D8a" firstAttribute="centerY" secondItem="Grp-VI-F4O" secondAttribute="centerY" id="Z9h-8O-opU"/>
+                            <constraint firstItem="BsN-We-GJf" firstAttribute="trailing" secondItem="Grp-VI-F4O" secondAttribute="trailing" id="a96-9M-GqU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RPG-7e-c2i" secondAttribute="trailing" constant="25" id="c8w-tg-dfB"/>
+                            <constraint firstItem="M2R-O8-DA6" firstAttribute="centerX" secondItem="uqh-fE-qfk" secondAttribute="centerX" id="cu7-Tf-TIh"/>
+                            <constraint firstItem="F18-nj-dHQ" firstAttribute="leading" secondItem="UsJ-Nd-P73" secondAttribute="leading" id="doQ-Pg-9CX"/>
+                            <constraint firstItem="M2R-O8-DA6" firstAttribute="centerY" secondItem="BsN-We-GJf" secondAttribute="centerY" id="fte-zi-7bR"/>
+                            <constraint firstItem="yKw-OR-TsO" firstAttribute="leading" secondItem="0df-YL-FmE" secondAttribute="leading" id="hNc-l9-XfT"/>
+                            <constraint firstItem="84p-22-cCv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="hRG-u5-fK2"/>
+                            <constraint firstItem="lh2-1v-eeD" firstAttribute="leading" secondItem="yKw-OR-TsO" secondAttribute="leading" id="iHu-Ew-FJU"/>
+                            <constraint firstItem="el6-OG-boF" firstAttribute="centerY" secondItem="BsN-We-GJf" secondAttribute="centerY" id="jTG-Nx-jLl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iHv-m6-AH8" secondAttribute="trailing" id="kRj-6v-3Og"/>
-                            <constraint firstItem="20V-66-3WE" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="lv6-fZ-xhw"/>
-                            <constraint firstItem="Mj2-x4-euW" firstAttribute="top" secondItem="20V-66-3WE" secondAttribute="bottom" constant="18" id="pHR-fi-Ezq"/>
-                            <constraint firstItem="yrI-8w-ikR" firstAttribute="top" secondItem="Mj2-x4-euW" secondAttribute="bottom" constant="18" id="pSG-aF-CXO"/>
+                            <constraint firstItem="COv-oA-yai" firstAttribute="centerX" secondItem="Hwn-jZ-sgH" secondAttribute="centerX" id="mAn-tW-1oQ"/>
+                            <constraint firstItem="Nn1-Hj-Ezr" firstAttribute="top" secondItem="el6-OG-boF" secondAttribute="bottom" constant="50" id="mMD-JM-O74"/>
+                            <constraint firstItem="ebH-wI-D8a" firstAttribute="centerX" secondItem="COv-oA-yai" secondAttribute="centerX" id="ndr-cK-GDA"/>
+                            <constraint firstItem="uqh-fE-qfk" firstAttribute="centerX" secondItem="AIc-Mb-7OM" secondAttribute="centerX" id="pZI-Tv-122"/>
+                            <constraint firstItem="2C1-E2-G2M" firstAttribute="centerY" secondItem="D7u-od-ZaR" secondAttribute="centerY" id="qRk-pW-bku"/>
+                            <constraint firstItem="84p-22-cCv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="rv2-nf-flZ"/>
                             <constraint firstAttribute="bottom" secondItem="iHv-m6-AH8" secondAttribute="bottom" id="ryr-FY-9v7"/>
-                            <constraint firstItem="20V-66-3WE" firstAttribute="top" secondItem="5VN-sP-0Sn" secondAttribute="bottom" constant="18" id="vM8-GV-oHq"/>
-                            <constraint firstAttribute="trailing" secondItem="yrI-8w-ikR" secondAttribute="trailing" constant="25" id="xUD-yU-7sj"/>
+                            <constraint firstItem="2C1-E2-G2M" firstAttribute="top" secondItem="RPG-7e-c2i" secondAttribute="bottom" constant="18" id="sSa-Ed-fGK"/>
+                            <constraint firstItem="BsN-We-GJf" firstAttribute="top" secondItem="Grp-VI-F4O" secondAttribute="bottom" constant="18" id="tLu-uM-Smo"/>
+                            <constraint firstItem="F18-nj-dHQ" firstAttribute="centerY" secondItem="BsN-We-GJf" secondAttribute="centerY" id="uQE-wg-I4s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Ff-rh-rGv" secondAttribute="trailing" constant="20" id="z8t-Li-Mz5"/>
+                            <constraint firstItem="lh2-1v-eeD" firstAttribute="centerY" secondItem="Grp-VI-F4O" secondAttribute="centerY" id="znf-U9-Xhe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -354,7 +361,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133" y="93"/>
+            <point key="canvasLocation" x="131.8840579710145" y="92.410714285714278"/>
         </scene>
     </scenes>
     <resources>

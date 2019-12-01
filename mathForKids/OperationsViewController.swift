@@ -33,7 +33,7 @@ class OperationsViewController: UIViewController {
     var maxNumber = 0
     
     var numbers = [Int]()
-    var operations = ["+", "-", "x"]
+    var operations = ["+", "-", "x", "/"]
     var selectedFirstOperation = ""
     var selectedSecondOperation = ""
     var selectedThirdOperation = ""
@@ -83,6 +83,17 @@ class OperationsViewController: UIViewController {
             firstExpectedAnswer = Int(firstNumberOne.text!)! + Int(firstNumberTwo.text!)!
         } else if selectedFirstOperation == "x" {
             firstExpectedAnswer = Int(firstNumberOne.text!)! * Int(firstNumberTwo.text!)!
+        } else if selectedFirstOperation == "/" {
+            let secondNumber = Int(firstNumberTwo.text!)!
+            if Int(firstNumberTwo.text!)! >= secondNumber {
+            if Int(firstNumberOne.text!)! % secondNumber == 0 {
+                firstExpectedAnswer = Int(firstNumberOne.text!)! / Int(firstNumberTwo.text!)!
+            } else {
+                configureFirstOperation()
+                }
+            } else {
+                configureFirstOperation()
+            }
         }
         
     }
@@ -109,6 +120,17 @@ class OperationsViewController: UIViewController {
             secondExpectedAnswer = Int(secondNumberOne.text!)! + Int(secondNumberTwo.text!)!
         } else if selectedSecondOperation == "x" {
             secondExpectedAnswer = Int(secondNumberOne.text!)! * Int(secondNumberTwo.text!)!
+        } else if selectedSecondOperation == "/" {
+            let secondNumber = Int(secondNumberTwo.text!)!
+            if Int(secondNumberOne.text!)! >= secondNumber {
+            if Int(secondNumberOne.text!)! % secondNumber == 0 {
+                secondExpectedAnswer = Int(secondNumberOne.text!)! / Int(secondNumberTwo.text!)!
+            } else {
+                configureSecondOperation()
+                }
+            } else {
+                configureSecondOperation()
+            }
         }
         
     }
@@ -135,6 +157,17 @@ class OperationsViewController: UIViewController {
             thirdExpectedAnswer = Int(thirdNumberOne.text!)! + Int(thirdNumberTwo.text!)!
         } else if selectedThirdOperation == "x" {
             thirdExpectedAnswer = Int(thirdNumberOne.text!)! * Int(thirdNumberTwo.text!)!
+        } else if selectedThirdOperation == "/" {
+            let secondNumber = Int(thirdNumberTwo.text!)!
+            if Int(thirdNumberOne.text!)! >= secondNumber {
+            if Int(thirdNumberOne.text!)! % secondNumber == 0 {
+                thirdExpectedAnswer = Int(thirdNumberOne.text!)! / Int(thirdNumberTwo.text!)!
+            } else {
+                configureThirdOperation()
+                }
+            } else {
+                configureThirdOperation()
+            }
         }
         
     }
@@ -161,6 +194,17 @@ class OperationsViewController: UIViewController {
             fourthExpectedAnswer = Int(fourthNumberOne.text!)! + Int(fourthNumberTwo.text!)!
         } else if selectedFourthOperation == "x" {
             fourthExpectedAnswer = Int(fourthNumberOne.text!)! * Int(fourthNumberTwo.text!)!
+        } else if selectedFourthOperation == "/" {
+            let secondNumber = Int(fourthNumberTwo.text!)!
+            if Int(fourthNumberOne.text!)! >= secondNumber {
+            if Int(fourthNumberOne.text!)! % secondNumber == 0 {
+                fourthExpectedAnswer = Int(fourthNumberOne.text!)! / Int(fourthNumberTwo.text!)!
+            } else {
+                configureFourthOperation()
+                }
+            } else {
+                configureFourthOperation()
+            }
         }
         
     }
